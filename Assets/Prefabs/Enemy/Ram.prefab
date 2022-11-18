@@ -144,16 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243e82181d4843a4fa92d86a0baa8202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   speed: 1
 --- !u!114 &9084256847936066584
 MonoBehaviour:
@@ -167,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7725707e6d65cfc46b1ad134cbe8d7f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxhitpoints: 5
+  maxhitpoints: 4
   difficultyRamp: 1
 --- !u!114 &-6099923104226804077
 MonoBehaviour:

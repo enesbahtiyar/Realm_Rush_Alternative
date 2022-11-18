@@ -14,9 +14,8 @@ public class EnemyMover : MonoBehaviour
 
     void OnEnable()
     {
-
-        RecalculatePath(true);
         ReturnToStart();
+        RecalculatePath(true);
 
     }
 
@@ -43,7 +42,7 @@ public class EnemyMover : MonoBehaviour
 
         StopAllCoroutines();
         path.Clear();
-        path = pathFinder.GetNewPath();
+        path = pathFinder.GetNewPath(coordinates);
         StartCoroutine(FollowPath());
     }
 
